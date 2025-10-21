@@ -1,0 +1,86 @@
+import type { Employee } from "../types/employee";
+
+export const mockEmployees: Employee[] = [
+  {
+    id: 1,
+    firstName: "Laura",
+    lastName: "González",
+    email: "laura.gonzalez@example.com",
+    hireDate: "2021-03-15",
+    salary: 35000,
+  },
+  {
+    id: 2,
+    firstName: "Raúl",
+    lastName: "Martínez",
+    email: "raul.martinez@example.com",
+    hireDate: "2019-11-01",
+    salary: 42000,
+  },
+  {
+    id: 3,
+    firstName: "Ana",
+    lastName: "Pérez",
+    email: "ana.perez@example.com",
+    hireDate: "2018-06-20",
+    salary: 48000,
+  },
+  {
+    id: 4,
+    firstName: "Miguel",
+    lastName: "Santos",
+    email: "miguel.santos@example.com",
+    hireDate: "2020-01-10",
+    salary: 30000,
+  },
+  {
+    id: 5,
+    firstName: "María",
+    lastName: "Rodríguez",
+    email: "maria.rodriguez@example.com",
+    hireDate: "2022-08-01",
+    salary: 36000,
+  },
+  {
+    id: 6,
+    firstName: "Carlos",
+    lastName: "Fernández",
+    email: "carlos.fernandez@example.com",
+    hireDate: "2017-04-30",
+    salary: 50000,
+  },
+  {
+    id: 7,
+    firstName: "Sofía",
+    lastName: "López",
+    email: "sofia.lopez@example.com",
+    hireDate: "2023-02-14",
+    salary: 32000,
+  },
+  {
+    id: 8,
+    firstName: "Diego",
+    lastName: "Ramírez",
+    email: "diego.ramirez@example.com",
+    hireDate: "2016-09-05",
+    salary: 28000,
+  },
+  {
+    id: 9,
+    firstName: "Elena",
+    lastName: "Vega",
+    email: "elena.vega@example.com",
+    hireDate: "2015-12-12",
+    salary: 39000,
+  },
+  {
+    id: 10,
+    firstName: "Javier",
+    lastName: "Ortiz",
+    email: "javier.ortiz@example.com",
+    hireDate: "2014-05-02",
+    salary: 95000,
+  },
+];
+
+export default mockEmployees;
